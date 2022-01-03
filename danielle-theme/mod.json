@@ -1,0 +1,23 @@
+{
+  "name": "danielle-theme",
+  "id": "033bff54-50ba-4cec-bdc0-b2ca7e307087",
+  "version": "0.3.0",
+  "description": "so many beans you cant even imagine",
+  "preview": "theo.jpg",
+  "tags": ["theme", "dark"],
+  "authors": [
+    {
+      "name": "danielle",
+      "email": "",
+      "homepage": "",
+      "avatar": ""
+    }
+  ],
+  "css": {
+    "frame": ["variables.css"],
+    "client": ["variables.css", "app.css"],
+    "menu": ["variables.css"]
+  },
+  "js": {},
+  "options": []
+}
