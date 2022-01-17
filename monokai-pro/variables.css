@@ -53,7 +53,7 @@
 
   --theme--bg: var(--monokai--bg);
   --theme--bg_secondary: var(--monokai--bg_secondary);
-  --theme--bg_card: var(--monokai--bg_light);
+  --theme--bg_card: var(--monokai--bg);
 
   --theme--scrollbar_track: transparent;
   --theme--scrollbar_thumb: rgba(252, 252, 250, 0.07);
