@@ -112,7 +112,7 @@
   --theme--callout_pink: var(--monokai--bg_pink);
   --theme--callout_red: var(--monokai--bg_red);
 
-  --theme--tag_default: #ffffff54;
+  --theme--tag_default: var(--monokai--gray);
   --theme--tag_default-text: var(--monokai--fg);
   --theme--tag_gray: var(--monokai--gray);
   --theme--tag_gray-text: var(--monokai--fg);
@@ -127,9 +127,9 @@
   --theme--tag_blue: var(--monokai--blue);
   --theme--tag_blue-text: var(--monokai--bg);
   --theme--tag_purple: var(--monokai--purple);
-  --theme--tag_purple-text: var(--monokai--fg);
+  --theme--tag_purple-text: var(--monokai--bg);
   --theme--tag_pink: var(--monokai--pink);
-  --theme--tag_pink-text: var(--monokai--fg);
+  --theme--tag_pink-text: var(--monokai--bg);
   --theme--tag_red: var(--monokai--red);
   --theme--tag_red-text: var(--monokai--fg);
 
