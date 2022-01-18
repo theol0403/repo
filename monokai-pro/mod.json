@@ -14,7 +14,7 @@
     }
   ],
   "css": {
-    "frame": ["variables.css"],
+    "frame": ["frame.css"],
     "client": ["variables.css", "app.css"],
     "menu": ["variables.css"]
   },

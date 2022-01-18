@@ -1,0 +1,275 @@
+/**
+ * notion-enhancer: monokai
+ * (c) 2016 monokai Theme
+ * (c) 2021 dragonwocky <thedragonring.bod@gmail.com> (https://dragonwocky.me/)
+ * (https://notion-enhancer.github.io/) under the MIT license
+ */
+
+:root.dark {
+  --monokai--bg: #403e41;
+  --monokai--bg_secondary: #2d2a2e; /* secondary */
+  --monokai--bg_light: #2d2a2e; /* gray/code/card */
+  --monokai--bg_lighter: #2d2a2e; /* divider/active */
+  --monokai--block_highlight: #403e41;
+
+  --monokai--fg: #fcfcfa;
+  --monokai--fg_dark: #c1c0c0; /* dimmed text */
+
+  --monokai--red: #e55b47;
+  --monokai--orange: #fc9867;
+  --monokai--yellow: #ffd866;
+  --monokai--green: #a9dc76;
+  --monokai--blue: #78dce8;
+  --monokai--purple: #ab9df2;
+  --monokai--pink: #ff6188;
+  --monokai--gray: #727072;
+  --monokai--brown: #a95648;
+
+  --monokai--accent: var(--monokai--yellow);
+
+  --monokai--bg_red: #e55b4759;
+  --monokai--bg_orange: #fc986759;
+  --monokai--bg_yellow: #ffd86659;
+  --monokai--bg_green: #a9dc7659;
+  --monokai--bg_blue: #78dce859;
+  --monokai--bg_purple: #ab9df259;
+  --monokai--bg_pink: #ff618859;
+  --monokai--bg_gray: var(--monokai--bg_light);
+  --monokai--bg_brown: #a9564859;
+
+  /* default card background should be 403e4159 */
+
+  --theme--accent_blue: var(--monokai--accent);
+  --theme--accent_blue-selection: #ffffff30;
+  --theme--accent_blue-hover: #fc9867;
+  --theme--accent_blue-active: #fc9867;
+  --theme--accent_blue-text: var(--monokai--bg);
+  --theme--accent_red: var(--monokai--orange);
+  --theme--accent_red-button: #fc986759;
+  --theme--accent_red-text: var(--monokai--bg);
+
+  --theme--danger_text: var(--monokai--red);
+  --theme--danger_border: var(--monokai--bg_red);
+
+  --theme--bg: var(--monokai--bg);
+  --theme--bg_secondary: var(--monokai--bg_secondary);
+  --theme--bg_card: var(--monokai--bg_light);
+
+  --theme--scrollbar_track: transparent;
+  --theme--scrollbar_thumb: rgba(252, 252, 250, 0.07);
+  --theme--scrollbar_thumb-hover: rgba(252, 252, 250, 0.2);
+
+  --theme--ui_divider: var(--monokai--bg_lighter);
+  --theme--ui_interactive-hover: var(--monokai--block_highlight);
+  --theme--ui_interactive-active: var(--monokai--bg_lighter);
+  --theme--ui_toggle-off: var(--monokai--block_highlight);
+  --theme--ui_corner_action: var(--theme--bg_card);
+  --theme--ui_corner_action-hover: var(--theme--ui_interactive-hover);
+  --theme--ui_corner_action-active: var(--theme--ui_interactive-active);
+
+  --theme--icon: var(--monokai--fg);
+  --theme--icon_secondary: var(--monokai--fg_dark);
+
+  --theme--text: var(--monokai--fg);
+  --theme--text_secondary: var(--monokai--fg_dark);
+
+  --theme--text_gray: var(--monokai--gray);
+  --theme--text_brown: var(--monokai--brown);
+  --theme--text_orange: var(--monokai--orange);
+  --theme--text_yellow: var(--monokai--yellow);
+  --theme--text_green: var(--monokai--green);
+  --theme--text_blue: var(--monokai--blue);
+  --theme--text_purple: var(--monokai--purple);
+  --theme--text_pink: var(--monokai--pink);
+  --theme--text_red: var(--monokai--red);
+
+  --theme--highlight_gray: var(--monokai--gray);
+  --theme--highlight_gray-text: var(--monokai--bg);
+  --theme--highlight_brown: var(--monokai--brown);
+  --theme--highlight_brown-text: var(--monokai--fg);
+  --theme--highlight_orange: var(--monokai--orange);
+  --theme--highlight_orange-text: var(--monokai--bg);
+  --theme--highlight_yellow: var(--monokai--yellow);
+  --theme--highlight_yellow-text: var(--monokai--bg);
+  --theme--highlight_green: var(--monokai--green);
+  --theme--highlight_green-text: var(--monokai--bg);
+  --theme--highlight_blue: var(--monokai--blue);
+  --theme--highlight_blue-text: var(--monokai--bg);
+  --theme--highlight_purple: var(--monokai--purple);
+  --theme--highlight_purple-text: var(--monokai--bg);
+  --theme--highlight_pink: var(--monokai--pink);
+  --theme--highlight_pink-text: var(--monokai--bg);
+  --theme--highlight_red: var(--monokai--red);
+  --theme--highlight_red-text: var(--monokai--fg);
+
+  --theme--callout_gray: var(--monokai--bg_gray);
+  --theme--callout_brown: var(--monokai--bg_brown);
+  --theme--callout_orange: var(--monokai--bg_orange);
+  --theme--callout_yellow: var(--monokai--bg_yellow);
+  --theme--callout_green: var(--monokai--bg_green);
+  --theme--callout_blue: var(--monokai--bg_blue);
+  --theme--callout_purple: var(--monokai--bg_purple);
+  --theme--callout_pink: var(--monokai--bg_pink);
+  --theme--callout_red: var(--monokai--bg_red);
+
+  --theme--tag_default: var(--monokai--gray);
+  --theme--tag_default-text: var(--monokai--fg);
+  --theme--tag_gray: var(--monokai--gray);
+  --theme--tag_gray-text: var(--monokai--fg);
+  --theme--tag_brown: var(--monokai--brown);
+  --theme--tag_brown-text: var(--monokai--fg);
+  --theme--tag_orange: var(--monokai--orange);
+  --theme--tag_orange-text: var(--monokai--bg);
+  --theme--tag_yellow: var(--monokai--yellow);
+  --theme--tag_yellow-text: var(--monokai--bg);
+  --theme--tag_green: var(--monokai--green);
+  --theme--tag_green-text: var(--monokai--bg);
+  --theme--tag_blue: var(--monokai--blue);
+  --theme--tag_blue-text: var(--monokai--bg);
+  --theme--tag_purple: var(--monokai--purple);
+  --theme--tag_purple-text: var(--monokai--bg);
+  --theme--tag_pink: var(--monokai--pink);
+  --theme--tag_pink-text: var(--monokai--bg);
+  --theme--tag_red: var(--monokai--red);
+  --theme--tag_red-text: var(--monokai--fg);
+
+  --theme--board_gray: var(--monokai--bg_gray);
+  --theme--board_gray-card: var(--theme--tag_gray);
+  --theme--board_gray-card_text: var(--theme--tag_gray-text);
+  --theme--board_gray-text: var(--monokai--fg);
+  --theme--board_brown: var(--monokai--bg_brown);
+  --theme--board_brown-card: var(--theme--tag_brown);
+  --theme--board_brown-card_text: var(--theme--tag_brown-text);
+  --theme--board_brown-text: var(--monokai--fg);
+  --theme--board_orange: var(--monokai--bg_orange);
+  --theme--board_orange-card: var(--theme--tag_orange);
+  --theme--board_orange-card_text: var(--theme--tag_orange-text);
+  --theme--board_orange-text: var(--monokai--fg);
+  --theme--board_yellow: var(--monokai--bg_yellow);
+  --theme--board_yellow-card: var(--theme--tag_yellow);
+  --theme--board_yellow-card_text: var(--theme--tag_yellow-text);
+  --theme--board_yellow-text: var(--monokai--fg);
+  --theme--board_green: var(--monokai--bg_green);
+  --theme--board_green-card: var(--theme--tag_green);
+  --theme--board_green-card_text: var(--theme--tag_green-text);
+  --theme--board_green-text: var(--monokai--fg);
+  --theme--board_blue: var(--monokai--bg_blue);
+  --theme--board_blue-card: var(--theme--tag_blue);
+  --theme--board_blue-card_text: var(--theme--tag_blue-text);
+  --theme--board_blue-text: var(--monokai--fg);
+  --theme--board_purple: var(--monokai--bg_purple);
+  --theme--board_purple-card: var(--theme--tag_purple);
+  --theme--board_purple-card_text: var(--theme--tag_purple-text);
+  --theme--board_purple-text: var(--monokai--fg);
+  --theme--board_pink: var(--monokai--bg_pink);
+  --theme--board_pink-card: var(--theme--tag_pink);
+  --theme--board_pink-card_text: var(--theme--tag_pink-text);
+  --theme--board_pink-text: var(--monokai--fg);
+  --theme--board_red: var(--monokai--bg_red);
+  --theme--board_red-card: var(--theme--tag_red);
+  --theme--board_red-card_text: var(--theme--tag_red-text);
+  --theme--board_red-text: var(--monokai--fg);
+
+  --theme--code_inline: var(--monokai--bg_light);
+  --theme--code_inline-text: var(--monokai--green);
+
+  --theme--code: var(--monokai--bg_light);
+  --theme--code_plain: var(--monokai--fg);
+  --theme--code_function: var(--monokai--green);
+  --theme--code_parameter: var(--monokai--orange);
+  --theme--code_keyword: var(--monokai--pink);
+  --theme--code_constant: var(--monokai--purple);
+  --theme--code_tag: var(--monokai--pink);
+  --theme--code_operator: var(--monokai--pink);
+  --theme--code_important: var(--monokai--pink);
+  --theme--code_regex: var(--monokai--red);
+  --theme--code_property: var(--monokai--blue);
+  --theme--code_builtin: var(--monokai--blue);
+  --theme--code_class-name: var(--monokai--blue);
+  --theme--code_attr-name: var(--monokai--green);
+  --theme--code_attr-value: var(--monokai--yellow);
+  --theme--code_selector: var(--monokai--pink);
+  --theme--code_id: var(--monokai--green);
+  --theme--code_class: var(--monokai--green);
+  --theme--code_pseudo-element: var(--monokai--green);
+  --theme--code_pseudo-class: var(--monokai--green);
+  --theme--code_attribute: var(--monokai--green);
+  --theme--code_value: var(--monokai--yellow);
+  --theme--code_unit: var(--monokai--pink);
+  --theme--code_comment: var(--monokai--gray);
+  --theme--code_punctuation: var(--monokai--text);
+  --theme--code_annotation: var(--theme--code_punctuation);
+  --theme--code_decorator: var(--monokai--green);
+  --theme--code_doctype: var(--monokai--gray);
+  --theme--code_number: var(--monokai--purple);
+  --theme--code_string: var(--monokai--yellow);
+  --theme--code_boolean: var(--monokai--purple);
+}
+
+/* { */
+/*   "name": "Monokai Pro", */
+/*   "author": "Monokai", */
+/*   "uuid": "656cdfc7-c181-528c-83a8-3d49b30e385f", */
+/*   "colorSpaceName": "sRGB", */
+/*   "variables": { */
+/*     "red": "#ff6188", */
+/*     "orange": "#fc9867", */
+/*     "yellow": "#ffd866", */
+/*     "green": "#a9dc76", */
+/*     "blue": "#78dce8", */
+/*     "purple": "#ab9df2", */
+/*     "black": "#2d2a2e", */
+/*     "white": "#fcfcfa", */
+/*     "terminal.ansiBlack": "#403e41", */
+/*     "terminal.ansiBrightBlack": "#727072", */
+/*     "terminal.selectionBackground": "#fcfcfa26", */
+/*     "invisibles": "#5b595c", */
+/*     "block_caret": "#939293", */
+/*     "line_highlight": "#fcfcfa0c", */
+/*     "jsdoc name": "#c1c0c0", */
+/*   }, */
+/*   "rules": [ */
+/*     { */
+/*       "name": "region red color", */
+/*       "scope": "region.redish", */
+/*       "foreground": "#ff6188", */
+/*       "background": "#ff618859" */
+/*     }, */
+/*     { */
+/*       "name": "region orange color", */
+/*       "scope": "region.orangish", */
+/*       "foreground": "#fc9867", */
+/*       "background": "#fc986759" */
+/*     }, */
+/*     { */
+/*       "name": "region yellow color", */
+/*       "scope": "region.yellowish", */
+/*       "foreground": "#ffd866", */
+/*       "background": "#ffd86659" */
+/*     }, */
+/*     { */
+/*       "name": "region green color", */
+/*       "scope": "region.greenish", */
+/*       "foreground": "#a9dc76", */
+/*       "background": "#a9dc7659" */
+/*     }, */
+/*     { */
+/*       "name": "region blue color", */
+/*       "scope": "region.bluish", */
+/*       "foreground": "#78dce8", */
+/*       "background": "#78dce859" */
+/*     }, */
+/*     { */
+/*       "name": "region purple color", */
+/*       "scope": "region.purplish", */
+/*       "foreground": "#ab9df2", */
+/*       "background": "#ab9df259" */
+/*     }, */
+/*     { */
+/*       "name": "region pink color", */
+/*       "scope": "region.pinkish", */
+/*       "foreground": "#ff6188", */
+/*       "background": "#ff618859" */
+/*     } */
+/*   ] */
+/* } */
