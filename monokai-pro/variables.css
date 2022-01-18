@@ -15,27 +15,27 @@
   --monokai--fg: #fcfcfa;
   --monokai--fg_dark: #c1c0c0; /* dimmed text */
 
-  --monokai--red: #ff6188;
+  --monokai--red: #e55b47;
   --monokai--orange: #fc9867;
   --monokai--yellow: #ffd866;
   --monokai--green: #a9dc76;
   --monokai--blue: #78dce8;
   --monokai--purple: #ab9df2;
-  --monokai--pink: #ff79c6;
+  --monokai--pink: #ff6188;
   --monokai--gray: #727072;
-  --monokai--brown: #664c43;
+  --monokai--brown: #a95648;
 
   --monokai--accent: var(--monokai--yellow);
 
-  --monokai--bg_red: #ff618859;
+  --monokai--bg_red: #e55b4759;
   --monokai--bg_orange: #fc986759;
   --monokai--bg_yellow: #ffd86659;
   --monokai--bg_green: #a9dc7659;
   --monokai--bg_blue: #78dce859;
   --monokai--bg_purple: #ab9df259;
-  --monokai--bg_pink: #ff79c659;
+  --monokai--bg_pink: #ff618859;
   --monokai--bg_gray: var(--monokai--bg_light);
-  --monokai--bg_brown: #664c4359;
+  --monokai--bg_brown: #a9564859;
 
   /* default card background should be 403e4159 */
 
@@ -53,7 +53,7 @@
 
   --theme--bg: var(--monokai--bg);
   --theme--bg_secondary: var(--monokai--bg_secondary);
-  --theme--bg_card: var(--monokai--bg);
+  --theme--bg_card: var(--monokai--bg_light);
 
   --theme--scrollbar_track: transparent;
   --theme--scrollbar_thumb: rgba(252, 252, 250, 0.07);
